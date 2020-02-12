@@ -1,5 +1,7 @@
 package com.backend.services;
 
-public class NotesService {
+import com.backend.model.PostRequest;
 
+public interface NotesService {
+	public int addNotes(PostRequest postRequest);
 }
